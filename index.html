@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Top 100 Movies</title>
+    <script src="https://kit.fontawesome.com/3699021ab0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <div class="nav-span">
+                <h3>THE MOVIE <span>BOX</span></h3>
+            </div>
+            <div class="nav-sec">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>log in</span>
+                <button>sign in</button>
+            </div>
+
+        </nav>
+
+        <div class="head-down">
+            <h2>WRATH OF THE TITANS</h2>
+            <DIv class="fant">
+                <P>Fantasy</P>
+                <P>Animation</P>
+                <P>Family</P>
+                <P>Duration</P>
+            </DIv>
+            <div class="watch">
+                <button>WATCH MOVIE</button>
+                <button onclick="click()">VIEW INFO</button>
+
+             <div id="click-el">
+                
+             </div>
+
+                <H5>ADD TO WATCH LIST</H5>
+                <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- <section class="sec-two">
+
+        <h1>Register A New Account</h1> 
+        <form id="register-form">
+         <input type="text" placeholder="Enter your username" name="username" required>
+         <input type="email" placeholder="Enter your Email" name="email" required>
+         <input type="password" placeholder="Enter your password" name="password" required>
+         <button type="submit">submit</button>
+        </form>
+        <h1 id="message"></h1>
+
+    </section> -->
+    <section>
+
+        <div class="line"></div>
+
+        <h1>IMDb Top 100 Movies</h1>
+        <button id="fetchMoviesBtn">Fetch Movies</button>
+
+        <div id="movies"></div>
+
+        <script src="script.js"></script>
+    </section>
+
+</body>
+
+</html>
